@@ -1,0 +1,104 @@
+/* Noelle Puzzle Specific Styles */
+
+/* Puzzle Container */
+.puzzle-container {
+    text-align: center;
+    max-width: 800px; /* Larger width for wallpaper-size */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  /* Puzzle Board Styles (4x4 grid) */
+  .puzzle-board {
+    display: grid;
+    grid-template-columns: repeat(4, 150px); /* 4x4 grid */
+    grid-gap: 5px;
+    margin-top: 20px;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Each puzzle piece */
+  .puzzle-piece {
+    width: 150px;
+    height: 150px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .puzzle-piece:hover {
+    background-color: #ddd;
+  }
+  
+  /* Missing Piece Styles */
+  .missing-piece {
+    background-color: #fff;
+    border: 1px dashed #bbb;
+    cursor: default; /* No dragging or interaction with missing piece */
+  }
+  
+  /* Main Menu Button Styling */
+  button {
+    padding: 12px 25px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  /* Additional Styling for Responsive Layout */
+  @media (max-width: 900px) {
+    .puzzle-board {
+      grid-template-columns: repeat(4, 120px); /* Adjust grid size for smaller screens */
+    }
+  
+    .puzzle-piece {
+      width: 120px;
+      height: 120px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .puzzle-board {
+      grid-template-columns: repeat(4, 100px); /* Adjust grid size for very small screens */
+    }
+  
+    .puzzle-piece {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  

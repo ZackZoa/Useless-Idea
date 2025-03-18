@@ -1,0 +1,163 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Main Container */
+  .container {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 12px 25px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  /* Main Page */
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  /* Genshin Quiz Styles */
+  .quiz-container {
+    width: 90%;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  .question {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .options {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .option {
+    padding: 12px;
+    margin: 10px 0;
+    background-color: #f2f2f2;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .option:hover {
+    background-color: #ddd;
+  }
+  
+  button {
+    padding: 15px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Styles for the Next Button (Only Visible After Answering) */
+  #next-button {
+    display: none;
+  }
+  
+  /* Maze Game Styles */
+  .maze-container {
+    width: 90%;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  canvas {
+    border: 1px solid #333;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  button {
+    padding: 15px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
